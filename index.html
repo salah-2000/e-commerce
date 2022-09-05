@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./style2.css">
+    <link rel="stylesheet" href="./style.css">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <title>Online Store</title>
+</head>
+<body>
+    
+    <i id="up" class='bx bx-chevrons-up'></i>
+<nav class="navbar"></nav>
+
+<section class="product-details">
+    <div class="imge-sliders">
+        <div class="product-imges">
+            <img onclick="changeimg(this.src)" src="./shirts/product image 1.png" class="active" alt="">
+            <img onclick="changeimg(this.src)" src="./shirts/product image 4.png" alt="">
+            <img onclick="changeimg(this.src)" src="./shirts/product image 3.png" alt="">
+            <img onclick="changeimg(this.src)" src="./shirts/product image 4.png" alt="">
+        </div>
+    </div>
+    <div class="details">
+        <h2 class="product-brand">clavin klein</h2>
+        <p class="product-short-des">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+        <span class="product-price">$99</span>
+        <span class="product-actual-price">$200</span>
+        <span class="product-dis">( 50% off )</span>
+
+        <p class="product-sub-heading">select size:</p>
+
+        <input type="radio" name="size" value="s" hidden checked id="s-size">
+        <label for="s-size" class="size-btn check" >s</label>
+
+        <input type="radio" name="size" value="m" hidden id="m-size">
+        <label for="m-size" class="size-btn">m</label>
+
+        <input type="radio" name="size" value="lg" hidden id="lg-size">
+        <label for="lg-size" class="size-btn">lg</label>
+
+        <input type="radio" name="size" value="xl" hidden id="xl-size">
+        <label for="xl-size" class="size-btn">xl</label>
+
+        <input type="radio" name="size" value="xxl" hidden id="xxl-size">
+        <label for="xxl-size" class="size-btn">xxl</label>
+
+        <button class="btn cart-btn">add to cart</button>
+        <button class="btn">add to wishlist</button>
+    </div>
+</section>
+
+<section class="details-des">
+    <h2 class="heading">description!!</h2>
+<p class="des">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+     Nobis, perferendis. Qui enim beatae iusto similique aut doloremque minus odio minima aperiam! 
+     Enim iste sapiente pariatur. Ea laudantium, hic sed deleniti nobis ullam saepe, aspernatur non 
+     totam, illo praesentium magnam quisquam libero reprehenderit! Soluta vero velit quisquam, asperiores
+      non ab eveniet expedita officiis et, laboriosam sit rerum? Fugit dolor accusantium totam adipisci
+       velit pariatur maiores provident, quibusdam voluptatem. Quos esse inventore numquam veritatis!
+        Eligendi at dolores placeat eius autem rem similique deleniti voluptas perspiciatis saepe quaerat
+         minus impedit eos rerum suscipit, obcaecati dicta adipisci exercitationem id eum dolorem natus
+          provident libero laudantium. Accusantium atque perspiciatis suscipit dolorem optio culpa iste erit magnam modi quam exercitationem ipsam unde repudiandae, 
+          sed voluptate nihil quibusdam eligendi? At dolore quia fugit architecto enim. Voluptas, eum? Vitae error neque, dicta,
+           porro maiores accusantium quam nihil eligendi laboriosam perspiciatis nulla! Assumenda cum repellendus cupiditate deleniti dolor exercitationem, alias voluptatum iste ex ipsa nesciunt velit nobis at eius temporibus reprehenderit. Incidunt commodi suscipit deleniti qui cum consectetur voluptatum enim. Repellendus officia atque error, eligendi expedita id voluptates libero cum accusantium tempora tenetur nulla iusto quidem maiores nam incidunt, laboriosam amet non deleniti cupiditate? Alias, provident esse obcaecati veritatis illo enim minus recusandae repudiandae rerum quo soluta vero eos iure nulla sapiente. Amet, ut deleniti, nesciunt itaque distinctio accusantium unde saepe tempore quasi nisi dolorum illo ex sit dolorem nihil atque delectus, repudiandae explicabo pariatur molestiae. Beatae voluptate ut deleniti cumque, quod officiis aliquam blanditiis reiciendis repudiandae accusamus nemo dignissimos eum, tenetur eius voluptas similique sed. Saepe pariatur provident, porro et nesciunt veritatis ex tenetur accusamus animi in aliquid unde. Delectus nobis sapiente magnam culpa aliquam deleniti quo iure eaque quae itaque dolorum hic, placeat, 
+          deserunt distinctio corporis qui. Inventore quas pariatur recusandae cumque aliquam reprehend
+    voluptatem vitae accusantium assumenda.</p>
+</section>
+<!--start cards -->
+
+<section class="product" id="shose">
+    <h2 class="product-category">Shose</h2>
+
+    <div class="product-container">
+        <div class="product-card">
+            <div class="product-imge">
+                <span class="discount-tag">50% off</span>
+                <img src="./shose/card9.png" class="product-thumb" alt="">
+                <button class="card-btn">add to wislist</button>
+            </div>
+            <div class="product-info">
+                <h2 class="product-brand">brand</h2>
+                <p class="product-short-dis">a short line about the cloth...</p>
+                <span class="price">$20</span><span class="actual-price">$40</span>
+            </div>
+        </div>
+
+        <div class="product-card">
+            <div class="product-imge">
+                <span class="discount-tag">50% off</span>
+                <img src="./shose/card10.png" class="product-thumb" alt="">
+                <button class="card-btn">add to wislist</button>
+            </div>
+            <div class="product-info">
+                <h2 class="product-brand">brand</h2>
+                <p class="product-short-dis">a short line about the cloth...</p>
+                <span class="price">$20</span><span class="actual-price">$40</span>
+            </div>
+        </div>
+
+        <div class="product-card">
+            <div class="product-imge">
+                <span class="discount-tag">50% off</span>
+                <img src="./shose/card11.png" class="product-thumb" alt="">
+                <button class="card-btn">add to wislist</button>
+            </div>
+            <div class="product-info">
+                <h2 class="product-brand">brand</h2>
+                <p class="product-short-dis">a short line about the cloth...</p>
+                <span class="price">$20</span><span class="actual-price">$40</span>
+            </div>
+        </div>
+
+        <div class="product-card">
+            <div class="product-imge">
+                <span class="discount-tag">50% off</span>
+                <img src="./shose/card12.png" class="product-thumb" alt="">
+                <button class="card-btn">add to wislist</button>
+            </div>
+            <div class="product-info">
+                <h2 class="product-brand">brand</h2>
+                <p class="product-short-dis">a short line about the cloth...</p>
+                <span class="price">$20</span><span class="actual-price">$40</span>
+            </div>
+        </div>
+
+        <div class="product-card">
+            <div class="product-imge">
+                <span class="discount-tag">50% off</span>
+                <img src="./shose/shose 5.png" class="product-thumb" alt="">
+                <button class="card-btn">add to wislist</button>
+            </div>
+            <div class="product-info">
+                <h2 class="product-brand">brand</h2>
+                <p class="product-short-dis">a short line about the cloth...</p>
+                <span class="price">$20</span><span class="actual-price">$40</span>
+            </div>
+        </div>
+
+        <div class="product-card">
+            <div class="product-imge">
+                <span class="discount-tag">50% off</span>
+                <img src="./shose/shose 6.png" class="product-thumb" alt="">
+                <button class="card-btn">add to wislist</button>
+            </div>
+            <div class="product-info">
+                <h2 class="product-brand">brand</h2>
+                <p class="product-short-dis">a short line about the cloth...</p>
+                <span class="price">$20</span><span class="actual-price">$40</span>
+            </div>
+        </div>
+
+        <div class="product-card">
+            <div class="product-imge">
+                <span class="discount-tag">50% off</span>
+                <img src="./shose/shose 5.png" class="product-thumb" alt="">
+                <button class="card-btn">add to wislist</button>
+            </div>
+            <div class="product-info">
+                <h2 class="product-brand">brand</h2>
+                <p class="product-short-dis">a short line about the cloth...</p>
+                <span class="price">$20</span><span class="actual-price">$40</span>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<section class="product">
+    <h2 class="product-category">Shirts</h2>
+
+    <div class="product-container">
+        <div class="product-card">
+            <div class="product-imge">
+                <span class="discount-tag">50% off</span>
+                <img src="./shirts/shirts 1.png" class="product-thumb" alt="">
+                <button class="card-btn">add to wislist</button>
+            </div>
+            <div class="product-info">
+                <h2 class="product-brand">brand</h2>
+                <p class="product-short-dis">a short line about the cloth...</p>
+                <span class="price">$20</span><span class="actual-price">$40</span>
+            </div>
+        </div>
+
+        <div class="product-card">
+            <div class="product-imge">
+                <span class="discount-tag">50% off</span>
+                <img src="./shirts/shirts 4.png" class="product-thumb" alt="">
+                <button class="card-btn">add to wislist</button>
+            </div>
+            <div class="product-info">
+                <h2 class="product-brand">brand</h2>
+                <p class="product-short-dis">a short line about the cloth...</p>
+                <span class="price">$20</span><span class="actual-price">$40</span>
+            </div>
+        </div>
+
+        <div class="product-card">
+            <div class="product-imge">
+                <span class="discount-tag">50% off</span>
+                <img src="./shirts/shirts 5.png" class="product-thumb" alt="">
+                <button class="card-btn">add to wislist</button>
+            </div>
+            <div class="product-info">
+                <h2 class="product-brand">brand</h2>
+                <p class="product-short-dis">a short line about the cloth...</p>
+                <span class="price">$20</span><span class="actual-price">$40</span>
+            </div>
+        </div>
+
+        <div class="product-card">
+            <div class="product-imge">
+                <span class="discount-tag">50% off</span>
+                <img src="./shirts/shirts 6.png" class="product-thumb" alt="">
+                <button class="card-btn">add to wislist</button>
+            </div>
+            <div class="product-info">
+                <h2 class="product-brand">brand</h2>
+                <p class="product-short-dis">a short line about the cloth...</p>
+                <span class="price">$20</span><span class="actual-price">$40</span>
+            </div>
+        </div>
+
+        <div class="product-card">
+            <div class="product-imge">
+                <span class="discount-tag">50% off</span>
+                <img src="./shirts/shirts.png" class="product-thumb" alt="">
+                <button class="card-btn">add to wislist</button>
+            </div>
+            <div class="product-info">
+                <h2 class="product-brand">brand</h2>
+                <p class="product-short-dis">a short line about the cloth...</p>
+                <span class="price">$20</span><span class="actual-price">$40</span>
+            </div>
+        </div>
+
+        <div class="product-card">
+            <div class="product-imge">
+                <span class="discount-tag">50% off</span>
+                <img src="./shirts/shirt 3.png.png" class="product-thumb" alt="">
+                <button class="card-btn">add to wislist</button>
+            </div>
+            <div class="product-info">
+                <h2 class="product-brand">brand</h2>
+                <p class="product-short-dis">a short line about the cloth...</p>
+                <span class="price">$20</span><span class="actual-price">$40</span>
+            </div>
+        </div>
+
+        <div class="product-card">
+            <div class="product-imge">
+                <span class="discount-tag">50% off</span>
+                <img src="./shirts/s.png" class="product-thumb" alt="">
+                <button class="card-btn">add to wislist</button>
+            </div>
+            <div class="product-info">
+                <h2 class="product-brand">brand</h2>
+                <p class="product-short-dis">a short line about the cloth...</p>
+                <span class="price">$20</span><span class="actual-price">$40</span>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<section class="product" id="watches">
+    <h2 class="product-category">Watches</h2>
+
+    <div class="product-container">
+        <div class="product-card">
+            <div class="product-imge">
+                <span class="discount-tag">50% off</span>
+                <img src="./watches/w.png" class="product-thumb" alt="">
+                <button class="card-btn">add to wislist</button>
+            </div>
+            <div class="product-info">
+                <h2 class="product-brand">brand</h2>
+                <p class="product-short-dis">a short line about the cloth...</p>
+                <span class="price">$20</span><span class="actual-price">$40</span>
+            </div>
+        </div>
+
+        <div class="product-card">
+            <div class="product-imge">
+                <span class="discount-tag">50% off</span>
+                <img src="./watches/watch 1.jpg" class="product-thumb" alt="">
+                <button class="card-btn">add to wislist</button>
+            </div>
+            <div class="product-info">
+                <h2 class="product-brand">brand</h2>
+                <p class="product-short-dis">a short line about the cloth...</p>
+                <span class="price">$20</span><span class="actual-price">$40</span>
+            </div>
+        </div>
+
+        <div class="product-card">
+            <div class="product-imge">
+                <span class="discount-tag">50% off</span>
+                <img src="./watches/watch 3.jpg" class="product-thumb" alt="">
+                <button class="card-btn">add to wislist</button>
+            </div>
+            <div class="product-info">
+                <h2 class="product-brand">brand</h2>
+                <p class="product-short-dis">a short line about the cloth...</p>
+                <span class="price">$20</span><span class="actual-price">$40</span>
+            </div>
+        </div>
+
+        <div class="product-card">
+            <div class="product-imge">
+                <span class="discount-tag">50% off</span>
+                <img src="./watches/watch 5.png" class="product-thumb" alt="">
+                <button class="card-btn">add to wislist</button>
+            </div>
+            <div class="product-info">
+                <h2 class="product-brand">brand</h2>
+                <p class="product-short-dis">a short line about the cloth...</p>
+                <span class="price">$20</span><span class="actual-price">$40</span>
+            </div>
+        </div>
+
+        <div class="product-card">
+            <div class="product-imge">
+                <span class="discount-tag">50% off</span>
+                <img src="./watches/watch 6.png" class="product-thumb" alt="">
+                <button class="card-btn">add to wislist</button>
+            </div>
+            <div class="product-info">
+                <h2 class="product-brand">brand</h2>
+                <p class="product-short-dis">a short line about the cloth...</p>
+                <span class="price">$20</span><span class="actual-price">$40</span>
+            </div>
+        </div>
+
+        <div class="product-card">
+            <div class="product-imge">
+                <span class="discount-tag">50% off</span>
+                <img src="./watches/watch-png--2059.png" class="product-thumb" alt="">
+                <button class="card-btn">add to wislist</button>
+            </div>
+            <div class="product-info">
+                <h2 class="product-brand">brand</h2>
+                <p class="product-short-dis">a short line about the cloth...</p>
+                <span class="price">$20</span><span class="actual-price">$40</span>
+            </div>
+        </div>
+
+        <div class="product-card">
+            <div class="product-imge">
+                <span class="discount-tag">50% off</span>
+                <img src="./watches/watche 2.png" class="product-thumb" alt="">
+                <button class="card-btn">add to wislist</button>
+            </div>
+            <div class="product-info">
+                <h2 class="product-brand">brand</h2>
+                <p class="product-short-dis">a short line about the cloth...</p>
+                <span class="price">$20</span><span class="actual-price">$40</span>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<!-- end cards -->
+
+<footer id="about"></footer>
+
+<script src="./jquery-3.6.0.min.js"></script>
+<script src="./shoop2.js"></script>
+<script src="./shop.js"></script>
+</body>
+</html>
